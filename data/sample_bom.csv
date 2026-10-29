@@ -1,0 +1,13 @@
+product_name,part_number,manufacturer,quantity,category,required_voltage,required_current,package,interface,criticality,notes
+Smart Energy Meter v2,STM32F401RET6,STMicroelectronics,1,Microcontroller,3.3V,50mA,LQFP-64,SPI/I2C/UART,HIGH,Main core MCU for metering and protocol stack
+Smart Energy Meter v2,LM1117IMP-3.3,Texas Instruments,2,Voltage Regulator,5.0V,800mA,SOT-223,Analog,MEDIUM,System 3.3V step-down LDO regulator
+Smart Energy Meter v2,INA219AIDR,Texas Instruments,1,Sensor,3.3V,10mA,SOIC-8,I2C,HIGH,Current and power monitor IC
+Smart Energy Meter v2,AT24C256C-SSHM-T,Microchip Technology,1,Memory,3.3V,3mA,SOIC-8,I2C,LOW,Non-volatile calibration EEPROM storage
+Smart Energy Meter v2,MAX485ESA+,Analog Devices,1,Communication,5.0V,30mA,SOIC-8,UART,HIGH,RS-485 transceiver for industrial AMR bus
+Industrial IoT Gateway,ESP32-WROOM-32E,Espressif Systems,1,Microcontroller,3.3V,240mA,Module-38,Wi-Fi/BLE/UART,HIGH,Dual-core communications co-processor
+Industrial IoT Gateway,MCP2515-I/SO,Microchip Technology,1,Communication,5.0V,10mA,SOIC-18,SPI,MEDIUM,Standalone CAN bus controller
+Industrial IoT Gateway,LM2596S-5.0,Texas Instruments,1,Voltage Regulator,12.0V,3000mA,TO-263,Analog,HIGH,Wide-input step-down switching regulator
+Industrial IoT Gateway,UNKNOWN-SENSOR-01,Unknown Origin Labs,2,Sensor,5.0V,20mA,SOT-23,,LOW,Legacy temperature sense element without full datasheet
+Motor Drive Inverter,IR2104STRPBF,Infineon Technologies,3,Driver IC,15.0V,50mA,SOIC-8,Analog,HIGH,Half-bridge gate driver for high-voltage power stage
+Motor Drive Inverter,LM1117IMP-3.3,Texas Instruments,1,Voltage Regulator,5.0V,800mA,SOT-223,Analog,HIGH,Logic power supply rail
+Motor Drive Inverter,CUSTOM-FPGA-99,Fabless Global Semi,1,Microcontroller,1.2V,1500mA,BGA-256,PCIe,HIGH,High-density custom control logic (single source - no alternative)
